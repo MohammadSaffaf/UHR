@@ -1,0 +1,35 @@
+#aufgabe2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+  width: 90%;
+  margin-left: 2.5%;
+
+  color: white;
+  background-color: black;
+  padding: 2%;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: black;
+}
+article {
+  background-color: white;
+  margin-left: 25%;
+  width: 50%;
+  border: 10px solid white;
+  margin-top: 20%;
+  border-radius: 25px;
+}
+h1 {
+  font-size: 6rem;
+}
+span {
+  font-size: 6rem;
+}
+P {
+  font-size: 1.5rem;
+}
