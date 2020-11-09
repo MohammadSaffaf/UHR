@@ -52,9 +52,9 @@ function currentTime() {
     hour = updateTime(hour);
     min = updateTime(min);
     sec = updateTime(sec);
-    document.getElementById("stunde1").innerText = hour 
-    document.getElementById("minute1").innerText = min
-    document.getElementById("seconde1").innerText = sec
+    document.getElementById("stunde1").innerHTML = hour 
+    document.getElementById("minute1").innerHTML = min
+    document.getElementById("seconde1").innerHTML = sec
    
       var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
   }

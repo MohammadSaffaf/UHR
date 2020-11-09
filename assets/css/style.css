@@ -33,3 +33,23 @@ span {
 P {
   font-size: 1.5rem;
 }
+/* responsive */
+@media only screen and (max-width: 1000px) {
+  #aufgabe2 {
+    border: unset;
+
+    margin: 0;
+  }
+  article {
+    border: unset;
+    width: 100%;
+  }
+
+  h1,
+  span {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 20px;
+  }
+}
